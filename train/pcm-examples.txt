@@ -1,0 +1,23 @@
+p . q .=. ~(~p v ~q)
+p ⊃ q ⊃ r .=. p ⊃ q . q ⊃ r
+(p ∧ q) =df (~(~p v ~q))
+(p ∧ q) =df (¬(¬p v ¬q))
+(p ∧ q) =df (¬(¬p v ¬q))
+(p → q → r) =df (p → q) & (q → r)
+(x) . φx
+(Ǝx) . φx
+(x) . ψx
+(x) . χx
+(x) . φx ⊃ ψx :(x). ψx ⊃ χx :⊃: (x) . φx ⊃ χx
+(Ǝx). φx . = . ~(x) . ~φx
+p | (p | p)
+⊦ . p (p | p)
+⊦ . p ⊃ p
+⊦ :. p ⊃ q . p ⊃ r . ⊃ : p .⊃. q . r
+⊦ : p . q .⊃. q
+⊦ : p . q .⊃. p
+⊦ : . q ⊃ r .⊃: p v q .⊃. p v r
+⊦ :. (p) :. (q) : q .⊃. p v q
+(Ǝx) . ~φx .v. φa . φb
+⊦ : (x) : (Ǝy) . φx ⊃ φy
+⊦ . (Ǝx,y) . φx ⊃ φy
